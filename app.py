@@ -12,6 +12,21 @@ from main import (clean_text, perform_eda, normalize_data, impute_missing_values
                  predict_single_column, perform_pca, select_k_best_features,
                  train_neural_network, read_excel_file, predict_single_value)  # Added predict_single_value
 
+st.set_page_config(
+    page_title="The Data Trainer",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+st.markdown(
+    """
+    <head>
+        <base target="_parent">
+    </head>
+    """,
+    unsafe_allow_html=True
+)
 # Set page config first
 st.set_page_config(page_title="The Data Trainer", layout="wide")
 
