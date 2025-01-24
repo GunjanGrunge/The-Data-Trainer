@@ -1,0 +1,42 @@
+[
+    {
+        "timestamp": "2025-01-24 15:10:15",
+        "target_column": "Target_Mapping",
+        "model_type": "neural_network",
+        "accuracy": 0.785,
+        "model_file": "models/neural_network_model_20250124_151015.pkl",
+        "report": "              precision    recall  f1-score   support\n\n           0       0.93      0.87      0.90       116\n           1       0.53      0.63      0.57        46\n           2       0.75      0.71      0.73        38\n\n    accuracy                           0.79       200\n   macro avg       0.73      0.74      0.73       200\nweighted avg       0.80      0.79      0.79       200\n"
+    },
+    {
+        "timestamp": "2025-01-24 15:10:26",
+        "target_column": "Target_Mapping",
+        "model_type": "neural_network",
+        "accuracy": 0.79,
+        "model_file": "models/neural_network_model_20250124_151026.pkl",
+        "report": "              precision    recall  f1-score   support\n\n           0       0.94      0.85      0.90       116\n           1       0.56      0.54      0.55        46\n           2       0.68      0.89      0.77        38\n\n    accuracy                           0.79       200\n   macro avg       0.73      0.76      0.74       200\nweighted avg       0.80      0.79      0.79       200\n"
+    },
+    {
+        "timestamp": "2025-01-24 15:57:07",
+        "target_column": "Target_Mapping",
+        "model_type": "decision_tree",
+        "accuracy": 1.0,
+        "model_file": "models/decision_tree_model_20250124_155707.pkl",
+        "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       116\n           1       1.00      1.00      1.00        46\n           2       1.00      1.00      1.00        38\n\n    accuracy                           1.00       200\n   macro avg       1.00      1.00      1.00       200\nweighted avg       1.00      1.00      1.00       200\n"
+    },
+    {
+        "timestamp": "2025-01-24 15:58:51",
+        "target_column": "Target_Mapping",
+        "model_type": "decision_tree",
+        "accuracy": 1.0,
+        "model_file": "models/decision_tree_model_20250124_155851.pkl",
+        "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       116\n           1       1.00      1.00      1.00        46\n           2       1.00      1.00      1.00        38\n\n    accuracy                           1.00       200\n   macro avg       1.00      1.00      1.00       200\nweighted avg       1.00      1.00      1.00       200\n"
+    },
+    {
+        "timestamp": "2025-01-24 15:59:39",
+        "target_column": "Target_Mapping",
+        "model_type": "decision_tree",
+        "accuracy": 1.0,
+        "model_file": "models/decision_tree_model_20250124_155939.pkl",
+        "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       116\n           1       1.00      1.00      1.00        46\n           2       1.00      1.00      1.00        38\n\n    accuracy                           1.00       200\n   macro avg       1.00      1.00      1.00       200\nweighted avg       1.00      1.00      1.00       200\n"
+    }
+]
